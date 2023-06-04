@@ -1,0 +1,510 @@
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body{
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  max-width:100vw;
+}
+
+.bar1 {
+  background: #bf3e4f;
+  height: 28px;
+  width: 100vw;
+
+}
+.bar1txt {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  color: white;
+  font-display: 3px;
+}
+.bar2 {
+  font-size: 30px;
+  font-style: Noto Sans Korean
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background: white;
+  width: 100vw;
+  height: 100px;
+}
+.bgimg1 {
+  background-image: url("bgimg4.jpeg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+.gofashion {
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 35px;
+  font-family: fantasy;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.navbar1 {
+  text-align: right;
+  padding-top: 40px;
+}
+.navbar li {
+  text-align: right;
+  text-decoration: none;
+  list-style: none;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+.navbar li a {
+  text-decoration: none;
+}
+.navbar {
+  display: inline-flex;
+}
+
+.sent1 {
+  padding-left: 120px;
+  padding-top: 90px;
+  font-size: 0.9rem;
+  margin-bottom: -10px;
+  text-transform: uppercase;
+}
+.sent2 {
+  padding-left: 120px;
+  padding-top: 20px;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.sent3 {
+  padding-left: 120px;
+  padding-top: -70px;
+  font-size: 1rem;
+  margin-top: -45px;
+  left: 2px;
+  text-transform: uppercase;
+}
+.ninty {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+.discount {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+.shopnow {
+  background: #bf3e4f;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 180px;
+  top: 530px;
+  border-radius: 50%;
+}
+.shopnowtxt {
+  position: absolute;
+  left: 42px;
+  top: 13px;
+  font-size: 17px;
+  color: white;
+}
+.shopnowlink {
+  text-decoration: none;
+  color: white;
+}
+.shopnowlink:hover {
+  font-size: 18px;
+}
+.shop1 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  height: 700px;
+}
+.shop2 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.shop3 {
+  color: #bf3e4f;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.tshirt {
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  height: 510px;
+  width: 600px;
+}
+.bag {
+  width: 508px;
+  height: 300px;
+  position: absolute;
+  top: 170px;
+}
+.hat {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  top: 480px;
+}
+.shoe {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  top: 480px;
+  left: 890px;
+}
+.letsshop {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.newarrivals2 {
+  text-align: center;
+  position: relative;
+  top: 60px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.new {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+.tshirt1 {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  left: 290px;
+  top: 100px;
+}
+.tshirt2 {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  left: 350px;
+  top: 100px;
+}
+.tshirt3 {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  left: 410px;
+  top: 100px;
+}
+.tshirt1txt {
+  position: absolute;
+  left: 360px;
+  top: 1860px;
+  color:black;
+  font-size:20px;
+  padding-top: 160px;
+  font-weight: bolder;
+}
+.tshirt2txt {
+  position: absolute;
+  left: 690px;
+  top: 1860px;
+  color:black;
+  font-size:20px;
+  padding-top:160px;
+  font-weight: bolder;
+}
+.tshirt3txt {
+  position: absolute;
+  left: 1020px;
+  top: 1860px;
+  color:black;
+  font-size:20px;
+  padding-top:160px;
+  font-weight: bolder;
+}
+.premium {
+  background: #eeeee9;
+  height: 100vh;
+  width: 100vw;
+}
+.premiumtext1 {
+  position: relative;
+  top: 250px;
+  left: 700px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.premiumtext2 {
+  position: relative;
+  top: 280px;
+  left: 700px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.premiumtxt {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+.getpremium1 {
+  position: relative;
+  top: 340px;
+  left: 810px;
+
+  width: 120px;
+  height: 100px;
+  border-radius: 80%;
+  background: #bf3e4f;
+}
+.getpremium2 {
+  position: absolute;
+  top: 32px;
+  left: 10px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size:17px;
+}
+
+.getpremiumlink {
+  text-decoration: none;
+  color: white;
+}
+
+.premiumimg {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 400px;
+  top: 25px;
+}
+.express {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+.shippingtxt {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+.circle1 {
+  background: #fcfbf2;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: -490px;
+}
+.circle2 {
+  background: #fcfbf2;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  top: -300px;
+}
+.circle3 {
+  background: #fcfbf2;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: -790px;
+  left: 1100px;
+}
+.offer {
+  background: #f8f8f8;
+  width: 100vw;
+  height: 215px;
+}
+.offertxt1 {
+  position: relative;
+  left: 320px;
+  top: 75px;
+  text-transform: capitalize;
+  font-size:20px;
+}
+.offertxt2 {
+  position: relative;
+  left: 620px;
+  top: 15px;
+  text-transform: capitalize;
+  font-size:20px;
+}
+.offertxt3 {
+  position: relative;
+  left: 920px;
+  top: -45px;
+  text-transform: capitalize;
+  font-size:20px;
+}
+.free {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+
+.dedicated {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+.money {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+
+.shippingimg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 290px;
+  top: 95px;
+}
+.dedicatedimg {
+  width: 20px;
+  height: 20px;
+
+  position: relative;
+  left: 590px;
+  top: 35px;
+}
+.moneyimg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 890px;
+  top: -20px;
+}
+.trending {
+  width: 100vw;
+  height: 75vh;
+}
+.trending1 {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.popular {
+  text-align: center;
+  position: relative;
+  top: 60px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.populartxt {
+  color: #bf3e4f;
+  font-weight: bolder;
+}
+.popular1 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+.popular2 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+.popular3 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+.popular4 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+
+.populartxt1 {
+  position: absolute;
+  top: 2930px;
+  left: 155px;
+  font-size:25px;
+  padding-top: 350px;
+}
+.populartxt2 {
+  position: absolute;
+  top: 2930px;
+  left: 460px;
+  font-size:25px;
+  padding-top: 350px;
+}
+.populartxt3 {
+  position: absolute;
+  top: 2930px;
+  left: 765px;
+  font-size:25px;
+  padding-top: 350px;
+}
+.populartxt4 {
+  position: absolute;
+  top: 2930px;
+  left: 1070px;
+  font-size:25px;
+  padding-top: 350px;
+}
+.contact {
+  width: 100vw;
+  height: 120px;
+  background: #babab6;
+}
+
+.contact1 {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+  font-size:25px;
+
+}
+.logo1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 610px;
+  top: 30px;
+}
+.logo2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 620px;
+  top: 30px;
+}
+
+.logo3 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 630px;
+  top: 30px;
+}
+
+.logo4 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 640px;
+  top: 30px;
+}
